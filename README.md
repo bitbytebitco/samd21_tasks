@@ -21,3 +21,30 @@
 * Select the ```Memories``` section in the sidebar
 * Press ```Program``` to write to the device's memory
 
+#### General Instructions for Running the Programs
+
+On the computer, open and configure a terminal application
+(e.g. HyperTerminal on Microsoft Windows) with these settings:
+* 38400 baud
+* 8 bits of data
+* No parity
+* 1 stop bit
+* No flow control
+
+Start the application.
+The LED(s) should start blinking on the board. In the terminal window, the
+following text should appear (values depend on the program selected):
+```
+ -- Step N: [title] --
+ -- Compiled: xxx xx xxxx xx:xx:xx --
+ -- [instructions] --
+```
+
+ #### Operating Instructions for Step 2 Program 
+ * Open the terminal as described above
+ * Press '0' to turn ```OFF``` the LED 
+	* Press '1' to turn ```ON``` the LED 
+	* Press 't' to ```TOGGLE``` the LED
+ * Press other keys to observe the "unknown command" response in the terminal console
+
+
