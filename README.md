@@ -47,18 +47,20 @@ following text should appear (values depend on the program selected):
 
  #### Operating Instructions for Step 2 Program 
  * Open the terminal as described above
+ * Program the boad as described above
  * Press '0' to turn ```OFF``` the LED 
  * Press '1' to turn ```ON``` the LED 
  * Press 't' to ```TOGGLE``` the LED
  * Press other keys to observe the "unknown command" response in the terminal console
 
-#### Operating Instructions for Step 2 Program 
- * Open the terminal as described above
+#### Operating Instructions for Step 3 Program 
+ * Program the boad as described above
  * Click the ```LEFT``` mouse button to `TOGGLE` the LED
  * Click the `RIGHT` mouse button to ensure the LED is `OFF`
 
-#### Operating Instructions for Step 3 Program 
+#### Operating Instructions for Step 4 Program 
  * Open the terminal as described above
+ * Program the board as described above
  * Press [0-9] to control brightness of the LED
  * Press '?' to query the brightness of the LED
  * Press 't' to `TOGGLE` the LED 
