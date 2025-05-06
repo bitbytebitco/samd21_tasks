@@ -6,6 +6,22 @@
 * Connect a USB cable between the ```DEBUG USB``` port on the SAM D21 Xplained Pro board and the computer running ```Microchip Studio```
 * Open the ```Microchip Studio``` project
 
+#### Open a Serial Terminal
+* On the computer, open Tera Term
+* Create a new connection
+  * ```File -> New connection```
+  * Choose the Serial connection option and ensure it is connected to the ```COM``` port with _EDBG Virtual COM Port_
+    
+* Open the Serial connection settings dialog
+  * ```Setup -> Serial port```
+  * Ensure the following settings:
+	* 38400 baud
+	* 8 bits of data
+	* No parity
+	* 1 stop bit
+	* No flow control
+  * Click ```New setting``` to save the changes.
+
 #### Build the Project 
 * ```Build -> Build Solution``` or press ```F7```
 
@@ -21,17 +37,6 @@
 * Select the ```Memories``` section in the sidebar
 * Press ```Program``` to write to the device's memory
 
-#### General Instructions for Running the Programs
-
-On the computer, open and configure a terminal application
-(e.g. HyperTerminal on Microsoft Windows) with these settings:
-* 38400 baud
-* 8 bits of data
-* No parity
-* 1 stop bit
-* No flow control
-
-Start the application.
 The LED(s) should start blinking on the board. In the terminal window, the
 following text should appear (values depend on the program selected):
 ```
