@@ -48,8 +48,13 @@ following text should appear (values depend on the program selected):
  #### Operating Instructions for Step 2 Program 
  * Open the terminal as described above
  * Press '0' to turn ```OFF``` the LED 
-	* Press '1' to turn ```ON``` the LED 
-	* Press 't' to ```TOGGLE``` the LED
+ * Press '1' to turn ```ON``` the LED 
+ * Press 't' to ```TOGGLE``` the LED
  * Press other keys to observe the "unknown command" response in the terminal console
 
+#### Operating Instructions for Step 2 Program 
+ * Open the terminal as described above
+ * Press [0-9] to control brightness of the LED
+ * Press '?' to query the brightness of the LED
+ * Press 't' to TOGGLE the LED 
 
